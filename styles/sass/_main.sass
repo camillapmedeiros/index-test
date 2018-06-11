@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////
+//
+// MAIN
+//
+///////////////////////////////////////////////////////////////
+
+.main
+    background: $color-blue-acqua-light url('../../assets/images/background.png') no-repeat 100% 95%
+    background-size: contain
+
+    &__media
+        margin-left: 5rem
+
+    &__video
+        background: $color-white
+        box-shadow: 0 0 40px 0 rgba(90,122,190,0.2)
+        padding: .2rem
+
+    &__letter
+        max-width: 500px
+        margin-left: 3rem
+
+    &--full
+        @include flexbox
+        width: 100%
+        min-width: 1400px
+        height: 100%
+        transition: all 2s ease
