@@ -26,3 +26,24 @@
         min-width: 1400px
         height: 100%
         transition: all 2s ease
+
+
+// MEDIA QUERIES
+@media (min-width: $extra-small) and (max-width: $medium)
+    .main
+        &__media
+            margin: 3rem  0 0
+
+        &__video
+            width: 100%
+            height: 380px
+
+        &__letter
+            margin: 3rem
+
+        &--full
+            flex-direction: column
+            justify-content: flex-start
+            min-width: 100%
+            height: auto
+            background-position: 0 25%
