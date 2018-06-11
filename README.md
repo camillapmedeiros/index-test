@@ -1,6 +1,5 @@
-<a align="center" href="https://camillapmedeiros.github.io/sugarholics"><img width="100%" src="./assets/images/website.png" alt="Camilla Medeiros website"></a>
 
-> Projects, snippets and more of Product design and Frontend.
+> Dia dos namorados 2018.
 
 ## License
 
