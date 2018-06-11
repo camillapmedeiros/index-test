@@ -31,6 +31,7 @@
         "watch:assets": "onchange 'assets/**/*' -- npm run copy:assets",
         "watch:html": "onchange '*.html' -- npm run copy:html",
         "watch:css": "onchange 'styles/**/*.sass' -- npm run build:css && npm run postbuild:css",
+        "deploy": "git subtree push --prefix dist origin gh-pages",
         "start": "run-p serve watch:*"
     }
 }
